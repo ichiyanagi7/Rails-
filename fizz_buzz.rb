@@ -1,5 +1,6 @@
 def fizz_buzz(number)
   if (number%3==0)&&(number%5==0)
+    # number%15==0でもいい
     "FizzBuzz"
   elsif (number%3==0)&&(number%5!=0)
       "Fizz"
